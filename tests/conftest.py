@@ -1,9 +1,9 @@
 import sys
 import pytest
 
-from project_name import create_app
-from project_name.ext.commands import populate_db
-from project_name.ext.database import db
+from conference_talks_ai import create_app
+from conference_talks_ai.ext.commands import populate_db
+from conference_talks_ai.ext.database import db
 
 
 @pytest.fixture(scope="session")
